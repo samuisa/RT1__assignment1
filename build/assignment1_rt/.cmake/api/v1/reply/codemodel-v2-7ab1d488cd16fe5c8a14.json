@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3e19ec43df42d3c9ec86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "assignment1_rt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "assignment1_rt_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assignment1_rt_uninstall-b48b5e8e081500c8296d.json",
+					"name" : "assignment1_rt_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "distance::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-distance-f1ea2c22e8ce1bcf66db.json",
+					"name" : "distance",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ui-ec44cd6c61e2fd34beab.json",
+					"name" : "ui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b90dccc1a7a90c8165f3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/samuele-isaia/universit\u00e0/RT1/ros_ws/build/assignment1_rt",
+		"source" : "/home/samuele-isaia/universit\u00e0/RT1/ros_ws/src/assignment1_rt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

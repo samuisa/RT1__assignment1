@@ -11,8 +11,8 @@ class UINode : public rclcpp::Node
 public:
     UINode() : Node("ui_node")
     {
-        pub_turtle1_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
-        pub_turtle2_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle2/cmd_vel", 10);
+        pub_turtle1_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/raw_cmd_vel", 10);
+        pub_turtle2_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle2/raw_cmd_vel", 10);
 
         RCLCPP_INFO(this->get_logger(), "UI Node avviato.");
 

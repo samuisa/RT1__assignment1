@@ -1,0 +1,25 @@
+[0.134s] Invoking command in '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt -- -j16 -l16
+[2.037s] [ 50%] Built target distance
+[2.038s] [100%] Built target ui
+[2.052s] Invoked command in '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt -- -j16 -l16
+[2.114s] Invoking command in '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt
+[2.162s] -- Install configuration: ""
+[2.257s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/lib/assignment1_rt/ui
+[2.292s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/lib/assignment1_rt/distance
+[2.312s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/lib/assignment1_rt/spawn.py
+[2.320s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/ament_index/resource_index/package_run_dependencies/assignment1_rt
+[2.321s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/ament_index/resource_index/parent_prefix_path/assignment1_rt
+[2.321s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.sh
+[2.321s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.dsv
+[2.322s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/path.sh
+[2.322s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/path.dsv
+[2.322s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.bash
+[2.322s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.sh
+[2.322s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.zsh
+[2.322s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.dsv
+[2.322s] -- Installing: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/package.dsv
+[2.328s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/ament_index/resource_index/packages/assignment1_rt
+[2.329s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig.cmake
+[2.329s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig-version.cmake
+[2.329s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/package.xml
+[2.333s] Invoked command in '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt

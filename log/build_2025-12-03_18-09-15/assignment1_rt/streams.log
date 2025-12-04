@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt -- -j16 -l16
+[0.092s] [ 25%] [32mBuilding CXX object CMakeFiles/ui.dir/src/ui_node.cpp.o[0m
+[0.093s] [ 75%] Built target distance
+[11.604s] [100%] [32m[1mLinking CXX executable ui[0m
+[12.480s] [100%] Built target ui
+[12.497s] Invoked command in '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt -- -j16 -l16
+[12.509s] Invoking command in '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt
+[12.517s] -- Install configuration: ""
+[12.518s] -- Installing: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/lib/assignment1_rt/ui
+[12.519s] -- Set non-toolchain portion of runtime path of "/home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/lib/assignment1_rt/ui" to ""
+[12.519s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/lib/assignment1_rt/distance
+[12.520s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/lib/assignment1_rt/spawn.py
+[12.520s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/ament_index/resource_index/package_run_dependencies/assignment1_rt
+[12.520s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/ament_index/resource_index/parent_prefix_path/assignment1_rt
+[12.520s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.sh
+[12.520s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.dsv
+[12.520s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/path.sh
+[12.520s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/path.dsv
+[12.520s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.bash
+[12.520s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.sh
+[12.520s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.zsh
+[12.520s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.dsv
+[12.521s] -- Installing: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/package.dsv
+[12.521s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/ament_index/resource_index/packages/assignment1_rt
+[12.521s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig.cmake
+[12.521s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig-version.cmake
+[12.521s] -- Up-to-date: /home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/package.xml
+[12.523s] Invoked command in '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt

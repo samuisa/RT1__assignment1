@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000266] (assignment1_rt) JobQueued: {'identifier': 'assignment1_rt', 'dependencies': OrderedDict()}
+[0.000885] (assignment1_rt) JobStarted: {'identifier': 'assignment1_rt'}
+[0.009716] (assignment1_rt) JobProgress: {'identifier': 'assignment1_rt', 'progress': 'cmake'}
+[0.010967] (assignment1_rt) JobProgress: {'identifier': 'assignment1_rt', 'progress': 'build'}
+[0.011064] (assignment1_rt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt', '--', '-j16', '-l16'], 'cwd': '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '02b1dc6e-f055-44ca-bd87-a6d7e3992fbc', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'samuele-isaia', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/samuele-isaia', 'OLDPWD': '/home/samuele-isaia/università', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'MANAGERPID': '2142', 'SYSTEMD_EXEC_PID': '2417', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4621', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/samuele-isaia/università/RT1/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'samuele-isaia', 'JOURNAL_STREAM': '9:21879', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'samuele-isaia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/samuele-isaia:@/tmp/.ICE-unix/2367,unix/samuele-isaia:/tmp/.ICE-unix/2367', 'INVOCATION_ID': 'a160cc9fdc4c4cb2a941b1831f888900', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9128G3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0a287fd8-eb15-43cc-997d-124b218ac665', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.079158] (assignment1_rt) StdoutLine: {'line': b'[ 50%] Built target ui\n'}
+[0.085557] (assignment1_rt) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/distance.dir/src/distance_node.cpp.o\x1b[0m\n'}
+[0.099679] (-) TimerEvent: {}
+[0.200054] (-) TimerEvent: {}
+[0.300602] (-) TimerEvent: {}
+[0.400957] (-) TimerEvent: {}
+[0.501305] (-) TimerEvent: {}
+[0.601704] (-) TimerEvent: {}
+[0.702088] (-) TimerEvent: {}
+[0.802445] (-) TimerEvent: {}
+[0.902803] (-) TimerEvent: {}
+[1.003187] (-) TimerEvent: {}
+[1.103554] (-) TimerEvent: {}
+[1.203932] (-) TimerEvent: {}
+[1.304290] (-) TimerEvent: {}
+[1.404655] (-) TimerEvent: {}
+[1.505030] (-) TimerEvent: {}
+[1.605403] (-) TimerEvent: {}
+[1.705773] (-) TimerEvent: {}
+[1.806169] (-) TimerEvent: {}
+[1.906517] (-) TimerEvent: {}
+[2.006901] (-) TimerEvent: {}
+[2.107259] (-) TimerEvent: {}
+[2.207619] (-) TimerEvent: {}
+[2.307968] (-) TimerEvent: {}
+[2.408329] (-) TimerEvent: {}
+[2.508691] (-) TimerEvent: {}
+[2.609048] (-) TimerEvent: {}
+[2.709428] (-) TimerEvent: {}
+[2.809852] (-) TimerEvent: {}
+[2.910303] (-) TimerEvent: {}
+[3.010947] (-) TimerEvent: {}
+[3.111372] (-) TimerEvent: {}
+[3.211796] (-) TimerEvent: {}
+[3.312228] (-) TimerEvent: {}
+[3.412913] (-) TimerEvent: {}
+[3.513330] (-) TimerEvent: {}
+[3.613743] (-) TimerEvent: {}
+[3.714193] (-) TimerEvent: {}
+[3.814601] (-) TimerEvent: {}
+[3.915013] (-) TimerEvent: {}
+[4.015420] (-) TimerEvent: {}
+[4.115833] (-) TimerEvent: {}
+[4.216285] (-) TimerEvent: {}
+[4.316695] (-) TimerEvent: {}
+[4.417136] (-) TimerEvent: {}
+[4.517550] (-) TimerEvent: {}
+[4.617960] (-) TimerEvent: {}
+[4.718374] (-) TimerEvent: {}
+[4.818776] (-) TimerEvent: {}
+[4.919215] (-) TimerEvent: {}
+[5.019614] (-) TimerEvent: {}
+[5.120053] (-) TimerEvent: {}
+[5.220447] (-) TimerEvent: {}
+[5.320797] (-) TimerEvent: {}
+[5.421171] (-) TimerEvent: {}
+[5.521513] (-) TimerEvent: {}
+[5.621887] (-) TimerEvent: {}
+[5.722226] (-) TimerEvent: {}
+[5.822575] (-) TimerEvent: {}
+[5.922926] (-) TimerEvent: {}
+[6.023247] (-) TimerEvent: {}
+[6.123627] (-) TimerEvent: {}
+[6.224076] (-) TimerEvent: {}
+[6.324496] (-) TimerEvent: {}
+[6.424888] (-) TimerEvent: {}
+[6.525305] (-) TimerEvent: {}
+[6.625729] (-) TimerEvent: {}
+[6.726187] (-) TimerEvent: {}
+[6.826582] (-) TimerEvent: {}
+[6.926948] (-) TimerEvent: {}
+[7.027356] (-) TimerEvent: {}
+[7.127842] (-) TimerEvent: {}
+[7.228276] (-) TimerEvent: {}
+[7.328694] (-) TimerEvent: {}
+[7.429122] (-) TimerEvent: {}
+[7.529542] (-) TimerEvent: {}
+[7.629960] (-) TimerEvent: {}
+[7.730378] (-) TimerEvent: {}
+[7.830789] (-) TimerEvent: {}
+[7.931245] (-) TimerEvent: {}
+[8.031659] (-) TimerEvent: {}
+[8.132108] (-) TimerEvent: {}
+[8.232527] (-) TimerEvent: {}
+[8.332947] (-) TimerEvent: {}
+[8.433358] (-) TimerEvent: {}
+[8.533772] (-) TimerEvent: {}
+[8.634222] (-) TimerEvent: {}
+[8.734630] (-) TimerEvent: {}
+[8.766396] (assignment1_rt) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable distance\x1b[0m\n'}
+[8.834788] (-) TimerEvent: {}
+[8.935208] (-) TimerEvent: {}
+[9.035581] (-) TimerEvent: {}
+[9.135959] (-) TimerEvent: {}
+[9.236341] (-) TimerEvent: {}
+[9.237923] (assignment1_rt) StdoutLine: {'line': b'[100%] Built target distance\n'}
+[9.251356] (assignment1_rt) CommandEnded: {'returncode': 0}
+[9.251988] (assignment1_rt) JobProgress: {'identifier': 'assignment1_rt', 'progress': 'install'}
+[9.262876] (assignment1_rt) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt'], 'cwd': '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '02b1dc6e-f055-44ca-bd87-a6d7e3992fbc', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'samuele-isaia', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/samuele-isaia', 'OLDPWD': '/home/samuele-isaia/università', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'MANAGERPID': '2142', 'SYSTEMD_EXEC_PID': '2417', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4621', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/samuele-isaia/università/RT1/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'samuele-isaia', 'JOURNAL_STREAM': '9:21879', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'samuele-isaia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/samuele-isaia:@/tmp/.ICE-unix/2367,unix/samuele-isaia:/tmp/.ICE-unix/2367', 'INVOCATION_ID': 'a160cc9fdc4c4cb2a941b1831f888900', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9128G3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0a287fd8-eb15-43cc-997d-124b218ac665', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/samuele-isaia/università/RT1/ros_ws/install/assignment1_rt:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.271406] (assignment1_rt) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.271748] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/lib/assignment1_rt/ui\n'}
+[9.272094] (assignment1_rt) StdoutLine: {'line': b'-- Installing: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/lib/assignment1_rt/distance\n'}
+[9.282702] (assignment1_rt) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/lib/assignment1_rt/distance" to ""\n'}
+[9.282968] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/lib/assignment1_rt/spawn.py\n'}
+[9.283123] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/ament_index/resource_index/package_run_dependencies/assignment1_rt\n'}
+[9.283372] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/ament_index/resource_index/parent_prefix_path/assignment1_rt\n'}
+[9.283515] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.sh\n'}
+[9.283727] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.dsv\n'}
+[9.283904] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/path.sh\n'}
+[9.284037] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/path.dsv\n'}
+[9.284161] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.bash\n'}
+[9.284291] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.sh\n'}
+[9.284424] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.zsh\n'}
+[9.284556] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.dsv\n'}
+[9.284691] (assignment1_rt) StdoutLine: {'line': b'-- Installing: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/package.dsv\n'}
+[9.284822] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/ament_index/resource_index/packages/assignment1_rt\n'}
+[9.284971] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig.cmake\n'}
+[9.285106] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig-version.cmake\n'}
+[9.285241] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/samuele-isaia/universit\xc3\xa0/RT1/ros_ws/install/assignment1_rt/share/assignment1_rt/package.xml\n'}
+[9.286392] (assignment1_rt) CommandEnded: {'returncode': 0}
+[9.321126] (assignment1_rt) JobEnded: {'identifier': 'assignment1_rt', 'rc': 0}
+[9.322836] (-) EventReactorShutdown: {}

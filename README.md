@@ -14,6 +14,19 @@ The system consists of three ROS 2 nodes, each with a specific role:
 | **`ui_node.cpp`** | C++ | Interface for desired motion commands. | Publisher to `/turtleX/raw_cmd_vel` |
 | **`distance_node.cpp`** | C++ | Safety filter and collision prevention logic. | Subscriber/Publisher to command and pose topics. |
 
+
+```bash
+.
+└── assignment1_rt
+    ├── CMakeLists.txt
+    ├── package.xml
+    ├── scripts
+    │   └── spawn.py
+    └── src
+        ├── distance_node.cpp
+        └── ui_node.cpp
+```
+
 ---
 
 ## 1. `spawn.py` (Turtle Spawner)
@@ -99,16 +112,3 @@ The node implements the `handle_turtle` function for each robot, applying the fo
     ```bash
     ros2 run assignment1_rt ui
     ```
-###### Project structure
-
-```bash
-.
-└── assignment1_rt
-    ├── CMakeLists.txt
-    ├── package.xml
-    ├── scripts
-    │   └── spawn.py
-    └── src
-        ├── distance_node.cpp
-        └── ui_node.cpp
-```

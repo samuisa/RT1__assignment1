@@ -2,7 +2,6 @@
 
 This project implements a reactive control system in ROS 2 (Python and C++) for two turtles in the `turtlesim` simulator. The main goal is to prevent collisions between the turtles and with the tank walls, acting as a safety filter over the raw motion commands provided by the user.
 
----
 
 ## System Architecture
 
@@ -27,8 +26,6 @@ The system consists of three ROS 2 nodes, each with a specific role:
         └── ui_node.cpp
 ```
 
----
-
 ## 1. `spawn.py` (Turtle Spawner)
 
 This Python client node is responsible for adding a second turtle to the simulator.
@@ -38,7 +35,6 @@ This Python client node is responsible for adding a second turtle to the simulat
 * **Position:** Places the turtle at coordinates **(x=7.0, y=7.0)**.
 * **Mechanism:** Uses an asynchronous call (`call_async`) to avoid blocking the node while waiting for the response.
 
----
 
 ## 2. `ui_node.cpp` (User Interface)
 
@@ -48,7 +44,6 @@ This C++ node provides a command-line interface for sending the **desired** (raw
 * **Output Topic:** Publishes the command to the **`/turtleX/raw_cmd_vel`** topic.
 * **Duration:** The command is maintained for **1 second**, after which the node automatically sends a zero-velocity command to stop the robot, prompting the user for a new input.
 
----
 
 ## 3. `distance_node.cpp` (Reactive Safety Control)
 

@@ -1,4 +1,0 @@
-Invoking command in '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt -- -j16 -l16
-Invoked command in '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt -- -j16 -l16
-Invoking command in '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt
-Invoked command in '/home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/samuele-isaia/università/RT1/ros_ws/build/assignment1_rt
